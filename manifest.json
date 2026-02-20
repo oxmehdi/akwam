@@ -1,0 +1,15 @@
+{
+  "id": "community.akwam",
+  "version": "1.1.0",
+  "name": "Akwam Plus",
+  "description": "Movies and series streams from akwam.to (educational)",
+  "resources": ["catalog", "stream", "meta"],
+  "types": ["movie", "series"],
+  "catalogs": [
+    { "type": "movie", "id": "akwam_movies", "name": "All Movies" },
+    { "type": "series", "id": "akwam_series", "name": "All Series" },
+    { "type": "movie", "id": "new", "name": "Latest Movies" },
+    { "type": "series", "id": "new_series", "name": "Latest Series" }
+  ],
+  "idPrefixes": ["akwam"]
+}
